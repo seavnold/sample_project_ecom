@@ -50,6 +50,6 @@ class RegisterFormRequest extends FormRequest
             'data' => $errors->messages(),
         ], 422);
 
-        throw new HttpResponseException($response);
+        throw new HttpResponseException($response); 
     }
 }
